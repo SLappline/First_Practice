@@ -1,10 +1,10 @@
 #2.1
 #Игнорируем все что внутри папки build
-build/**
+build/*
 #Игнорируем все файлы .jar
 **.jar
 #Исключаем игнорирование файла module2.jar
-!/module2.jar
+!module2.jar
 #Игнорируем файла application-local.properties
 application-local.properties
 #Игнорируем папку .idea
